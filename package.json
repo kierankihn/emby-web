@@ -15,7 +15,7 @@
   "license": "ISC",
   "build": {
     "appId": "com.kierankihn.emby-web",
-    "productName": "Emby Web",
+    "productName": "emby-web",
     "copyright": "Kieran Kihn",
     "compression": "normal",
     "win": {
