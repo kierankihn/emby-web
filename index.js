@@ -10,8 +10,6 @@ const createWindow = () => {
         icon: path.join(__dirname, './img/icon.ico')
     });
 
-    mainWindow.webContents.openDevTools();
-
     tray = new Tray(path.join(__dirname, './img/icon.ico'));
 
     let menu = [
