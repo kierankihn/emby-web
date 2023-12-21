@@ -4,12 +4,26 @@
   "description": "Emby's electron application made by Kieran Kihn",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/kierankihn/emby-web"
   },
   "author": "Kieran Kihn",
-  "license": "ISC"
+  "license": "ISC",
+  "build": {
+    "appId": "com.kierankihn.emby-web",
+    "productName": "Emby Web",
+    "copyright": "Kieran Kihn",
+    "compression": "normal",
+    "win": {
+      "icon": "img/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  }
 }
