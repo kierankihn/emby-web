@@ -4,11 +4,11 @@
   "description": "Emby's electron application made by Kieran Kihn",
   "main": "index.js",
   "scripts": {
-    "test": "\"start\": \"electron .\""
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "https://github.com/kierankihn/emby-web"
   },
   "author": "Kieran Kihn",
   "license": "ISC"
